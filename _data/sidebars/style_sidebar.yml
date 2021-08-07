@@ -1,0 +1,85 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Style Guide
+  version:
+  folders:
+
+  - title: Introduction
+    url: /mydoc_style_intro.html
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /style_intro.html
+      output: web, pdf
+
+  - title: General guidelines
+    output: web, pdf
+    folderitems:
+
+    - title: Accessibility
+      url: /accessibility.html
+      output: web,pdf
+    
+    - title: Inclusive content
+      url: /inclusive_content.html
+      output: web,pdf
+      
+    - title: Style and tone
+      url: /style.html
+      output: web, pdf
+
+  - title: Grammar
+    output: web, pdf
+    folderitems:
+
+    - title: Anthropomorphism
+      url: /anthropomorphism.html
+      output: web,pdf
+    
+    - title: Capitalization
+      url: /capitalization.html
+      output: web,pdf
+
+    - title: Links and cross-references
+      url: /cross-references.html
+      output: web,pdf
+
+    - title: Present tense
+      url: /tense.html
+      output: web,pdf
+      
+    - title: Second person
+      url: /second_person.html
+      output: web,pdf
+
+    - title: Spelling
+      url: /spelling.html
+      output: web,pdf
+
+#  - title: Computer interfaces
+ #   output: web, pdf
+  #  folderitems:
+
+  - title: Organization & UX
+    output: web, pdf
+    folderitems:
+
+    - title: Consistency
+      url: /consistency.html
+      output: web,pdf
+
+    - title: General guidelines
+      url: /ux-guidelines.html
+      output: web,pdf
+
+  - title: Other
+    output: web, pdf
+    folderitems:
+
+    - title: Resources
+      url: /resources.html
+      output: web,pdf
+

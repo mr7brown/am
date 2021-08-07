@@ -1,0 +1,50 @@
+#about-main {
+    height: 100vh;
+    background-color: var(--tw-light-gray);
+}
+
+#about-main h1 {
+    font-size: 2.5em;
+}
+
+#about-main h2 {
+    font-size: 1.8em;
+}
+
+#about-main p {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+#about-me p {
+    font-size: 1em;
+
+}
+
+#about-me img {
+    border-radius: 50%;
+    background-color: var(--tw-light-gray);
+    width: 300px;
+    height: 200px;
+    margin: 2em auto;
+}
+
+.about-interstitial {
+    background-color: var(--tw-dark-gray);
+    height: 30em;
+    width: 100%;
+    text-align: center;
+    margin: 5em auto 2em auto;
+    padding: 5em 2em 0em em;
+    
+}
+
+.about-container {
+    margin: 5em auto -22em auto;
+    padding: 10em auto 0em auto;
+    color: white;
+}
+
+.about-post {
+    margin-top: -42em;
+}

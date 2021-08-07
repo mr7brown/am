@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    {% include head.html %}
+</head>
+<body class="body-2">
+<header>
+    {% include header.html %}
+    
+</header>
+<div id="mainContent">
+	<div class="content-block no-image with-overflow-2"></div>
+	<div class="content-block post-view">
+		<div class="content-wrapper">
+			<article class="post">
+				<div class="post-intro">
+					<p class="post-meta"></p>
+					<h1> {{ page.title }}</h1>
+					<div class="social-share">
+						<a class="alternative-btn" href="http://github.com/mr7brown" target="_blank">
+						<i class="fa fa-github"></i>
+						</a>
+						<a class="alternative-btn" href="http://www.linkedin.com/in/ashton-brown-mba-6000238a/" target="_blank">
+						<i class="fa fa-linkedin-square"></i>
+						</a>
+						<a class="alternative-btn" href="mailto:ashtonbrownmba@gmail.com">
+						<i class="fa fa-envelope"></i>
+						</a>
+					</div>
+				</div>
+				<div class="post-text"> 
+					{{ content}}
+                    <hr>
+                    <div class="other-posts">
+                        <h2>Related Posts</h2>
+                    </div>
+                    <div class="row-blog">
+                <div class="column-blog">
+                <div class="card">
+                    <a href="/blm">
+                    <img class="card-image" src="/images/earth.png" alt="Meditations Image" >
+                    </a>
+                <div class="container-blog">
+                    <a href="/blm">
+                    <h4><b>8:46</b></h4>
+                    </a>
+                    <p>On May 25th, 2020 a black man by the name of George Floyd was murdered when a white police officer (Derek Chauvin)
+                    knelt on Floyd's neck for 8 minutes and 46 seconds...</p>
+                </div>
+                </div>
+                <div class="home-button-blog">
+                    <a class="blog-link" href="/blog">Back to Posts</a>
+                </div>
+                </div>
+
+                </div>
+                
+                <div class="shadow"></div>
+                
+                </div>
+                
+					
+				</div>
+                
+                
+</div>
+
+
+
+<div class="spacer-transparent"></div> 
+
+<footer>
+{% include footer-blog-post.html %}
+</footer>
+</body>
+
+{% if site.google_analytics %}
+{% include google_analytics.html %}
+{% endif %}
+
+</html>
+

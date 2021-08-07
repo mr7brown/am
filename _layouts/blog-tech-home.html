@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    {% include head.html %}
+</head>
+<body class="body-2">
+<header>
+    {% include header.html %}
+</header>
+<div id="mainContent">
+	<div class="content-block no-image with-overflow-tech">
+    <div class="caption-developer">
+        <h1>Write Simply</h1>
+        </div>
+    </div>
+	<div class="content-block post-view">
+		<div class="content-wrapper">
+        
+			<article class="post">
+				<div class="post-intro">
+				</div>
+				<div class="post-text">
+
+                {{ content}}
+
+                {% include tech-writing-collection.html %}
+                
+                {% include git-collection.html %}
+
+             
+                {% include linux-collection.html %}
+                
+                
+                <!--hidden
+                {% include post-links.html %}
+                -->
+
+                </div>
+                
+                <div class="shadow"></div>
+                
+                </div>
+                
+					
+				</div>
+                
+                
+</div>
+
+
+
+<div class="spacer-transparent"></div> 
+
+<footer>
+{% include footer-blog-post.html %}
+</footer>
+</body>
+
+{% if site.google_analytics %}
+{% include google_analytics.html %}
+{% endif %}
+
+</html>
+

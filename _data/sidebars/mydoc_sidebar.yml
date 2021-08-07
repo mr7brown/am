@@ -1,0 +1,85 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: My Portfolio
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+
+  - title: Welcome
+    url: /mydoc_introduction.html
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /home.html
+      output: web, pdf
+
+  - title: Developer Documentation
+    output: web, pdf
+    folderitems:
+
+    - title: HBO GitLab Setup
+      url: /gitlab.html
+      output: web, pdf
+
+    - title: Google - RPI3 Prerequisites
+      url: /mydoc_google_rpi3.html
+      output: web, pdf
+
+    - title: Google - Developer Accounts
+      url: /mydoc_google_developer.html
+      output: web, pdf
+
+    - title: Google - SDK Installation
+      url: /mydoc_google_sdk.html
+      output: web, pdf
+
+  - title: Technical Specifications
+    output: web, pdf
+    folderitems:
+
+    - title: HBO Manifest Metadata
+      url: /mydoc_hbo_mmc.html
+      output: web, pdf
+
+    - title: HBO Licensed Content (SDR)
+      url: /mydoc_hbo_sdr.html
+      output: web,pdf
+
+  - title: End User Documentation
+    output: web, pdf
+    folderitems:
+
+    - title: Facebook deployment
+      url: /mydoc_fb_deployment.html
+      output: web, pdf
+
+    - title: Facebook pass-down
+      url: /mydoc_fb_programming.html
+      output: web,pdf
+
+  - title: Legal Documentation
+    output: web, pdf
+    folderitems:
+
+    - title: Anti-money laundering
+      url: /mydoc_aml.html
+      output: web, pdf
+
+  - title: Blog Posts
+    output: web, pdf
+    folderitems:
+
+    - title: Facebook career growth
+      url: /mydoc_pulse_career.html
+      output: web, pdf
+
+    - title: Facebook leveraging strengths
+      url: /mydoc_pulse_strengths.html
+      output: web, pdf
